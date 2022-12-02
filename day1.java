@@ -22,8 +22,13 @@ public class day1 {
         }
 
         Collections.sort(arr);
+        
+        /*--------PART 1--------*/
 
         pw.println("Part 1: " + arr.get(arr.size() - 1));
+        
+        /*--------PART 2--------*/
+        
         pw.println("Part 2: " + (arr.get(arr.size() - 1) + arr.get(arr.size() - 2) + arr.get(arr.size() - 3)));
         
         pw.close();
