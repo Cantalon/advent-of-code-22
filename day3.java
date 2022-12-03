@@ -25,7 +25,7 @@ public class day3 {
             HashSet<Character> test = new HashSet<>();
             for (int i = 0; i < x1.length(); i++) {
                 test.add(x1.charAt(i));
-            }
+            } //hashset for O(1) searches
 
             for (int i = 0; i < x2.length(); i++) {
                 if (test.contains(x2.charAt(i))) {
@@ -48,7 +48,7 @@ public class day3 {
             HashSet<Character> test2 = new HashSet<>();
             for (int i = 0; i < arr.get(x + 1).length(); i++) {
                 test2.add(arr.get(x + 1).charAt(i));
-            }
+            } //hashset for O(1) searches
 
             for (int i = 0; i < arr.get(x + 2).length(); i++) {
                 if (test1.contains(arr.get(x + 2).charAt(i)) && test2.contains(arr.get(x + 2).charAt(i))) {
