@@ -18,8 +18,9 @@ public class day4 {
                 for (String num : nums) {
                     temp.add(Integer.parseInt(num));
                 }
-            }
+            } 
             arr.add(temp);
+            //there is probably a better way to read the input
         }
 
         /*--------PART 1--------*/
