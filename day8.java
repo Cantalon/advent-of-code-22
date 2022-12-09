@@ -19,7 +19,6 @@ public class day8 {
 
         /*--------PART 1--------*/
 
-
         boolean[][] visible = new boolean[arr.size()][arr.size()];
         for (int row = 0; row < arr.size(); row++) {
             int min = -1;
